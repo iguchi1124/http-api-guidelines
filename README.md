@@ -78,7 +78,7 @@ CLAUDE.mdの`@`による相対参照は、そのCLAUDE.mdを基準に解決さ�
 - 共有ルールや参照先を変えるときは、AGENTS.mdとCLAUDE.mdを整合させる。
 - 旧版をClaudeプラグインとして使っていた場合は、その読み込み設定を外し、上記の通常スキル配置へ移行する。呼び出し名は`/http-api-guidelines`になる。
 
-規約本文の採用方針（任意名のルートキー、snake_case、Problem Detailsなど）はこの配布形式の変更でも維持する。
+規約本文の採用方針（snake_case、Problem Detailsなど）はこの配布形式の変更でも維持する。
 
 ## 検証範囲
 
