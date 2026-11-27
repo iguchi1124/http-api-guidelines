@@ -16,7 +16,7 @@ http-api-guidelines/
     └── references/http-api-guidelines.md
 ```
 
-- `SKILL.md`: スキルの名前・説明・バージョン・適用手順。
+- `SKILL.md`: スキルの名前・説明・適用手順。
 - `references/http-api-guidelines.md`: 規約本文の唯一の編集元。
 - ルートの`AGENTS.md`と`CLAUDE.md`: このリポジトリを直接扱うエージェント向けの入口。スキル単体の利用には不要。
 
@@ -74,7 +74,7 @@ CLAUDE.mdの`@`による相対参照は、そのCLAUDE.mdを基準に解決さ�
 ## 更新と移行
 
 - 配布元の変更は`git pull --ff-only`で取得し、配置したスキルへ必要な差分を反映する。コピー配置は自動更新されない。
-- 規約本文はreferences内の1か所で管理し、スキルの配布バージョンはSKILL.mdの`metadata.version`で管理する。
+- 規約本文はreferences内の1か所で管理する。
 - 共有ルールや参照先を変えるときは、AGENTS.mdとCLAUDE.mdを整合させる。
 - 旧版をClaudeプラグインとして使っていた場合は、その読み込み設定を外し、上記の通常スキル配置へ移行する。呼び出し名は`/http-api-guidelines`になる。
 

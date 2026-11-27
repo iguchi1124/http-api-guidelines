@@ -1,8 +1,6 @@
 ---
 name: http-api-guidelines
 description: HTTP APIの設計・実装・レビューとOpenAPI仕様の作成・更新に、プロジェクトのHTTP API開発ガイドラインを適用する。snake_caseのJSONペイロード、RFC 9457のエラー、POST・QUERYによるカスタムアクションを扱う。
-metadata:
-  version: "0.1"
 ---
 
 # HTTP API Guidelines
